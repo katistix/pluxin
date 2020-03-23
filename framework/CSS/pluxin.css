@@ -1,0 +1,46 @@
+html{
+  box-sizing: border-box;
+}
+pxi-grid {
+  max-width: 100%;
+}
+
+pxi-2 grid-item{
+  width: 50%;
+  float: left;
+}
+
+pxi-3 grid-item{
+  width: calc(100%/3);
+  float: left;
+}
+
+pxi-4 grid-item{
+  width: 25%;
+  float: left;
+}
+
+pxi-5 grid-item{
+  width: 20%;
+  float: left;
+}
+
+/*BUTTONS*/
+a{
+  text-decoration: none;
+  font-family: calibri;
+  color: #fe9801;
+
+}
+pxi-button{
+  font-size: 30px;
+  border: 2px solid #fe9801;
+  background-color: #fe9801;
+  font-family: calibri;
+  color: #f4eec7;
+  transition-duration: 0.5s;
+}
+pxi-button:hover{
+  background-color: #f4eec7;
+  color: #fe9801;
+}
