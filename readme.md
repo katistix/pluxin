@@ -19,21 +19,21 @@ pluxin-files.js
 ========
 
 ### Include only pluxin-files.js
-````html
+```html
 <script type="text/javascript"src="https://katistix.github.io/pluxin/framework/JS/pluxin-files.js"></script>
 ```
 
 #### Generate a file
 >createFile(name, extension, content);
 
-````javascript
+```javascript
 var myFile = new createFile("exampleFile", "txt", "Lorem ipsum");
 ```
 
 #### Download a file
 >downloadFile(file);
 
-````javascript
+```javascript
 downloadFile(myFile);
 ```
 
@@ -44,14 +44,14 @@ pluxin-colors.js
 ========
 
 ### Include only pluxin-colors.js
-````html
+```html
 <script type="text/javascript"src="https://katistix.github.io/pluxin/framework/JS/pluxin-colors.js"></script>
 ```
 
 #### Premade colors
 >Color(colorName);
 
-````javascript
+```javascript
 console.log(Color("red"));
 //Output in console: #FF0000
 ```
@@ -63,7 +63,7 @@ console.log(Color("red"));
 #### Hex to RGB
 >hexToRgb(hex);
 
-````javascript
+```javascript
 console.log(hexToRgb("#055989"));
 //Output: {r: 5, g: 89, b: 137}
 
@@ -81,7 +81,7 @@ console.log(hexToRgb("#055989").b);
 #### RGB to Hex
 >rgbToHex(r, g, b);
 
-````javascript
+```javascript
 console.log(rgbToHex(23, 137, 5));
 //Output:  #178905
 ```
@@ -90,35 +90,35 @@ pluxin-images.js
 ========
 
 ### Include only pluxin-images.js
-````html
+```html
 <script type="text/javascript"src="https://katistix.github.io/pluxin/framework/JS/pluxin-images.js"></script>
 ```
 
 #### Create an image object
 >image(path);
 
-````javascript
+```javascript
 var myImage = image("dog.png");
 ```
 
 #### Append an image to body
 >showImage(image);
 
-````javascript
+```javascript
 showImage(myImage);
 ```
 
 #### Remove an image from body
 >hideImage(image);
 
-````javascript
+```javascript
 hideImage(myImage);
 ```
 
 #### Add filter to image
 >addFilter(image, filter, filterStrength);
 
-````javascript
+```javascript
 addFilter(myImage, "grayscale", "100%");
 ```
 
@@ -126,7 +126,7 @@ addFilter(myImage, "grayscale", "100%");
 #### Resize an image
 >resizeImage(image, height, width);
 
-````javascript
+```javascript
 resizeImage(myImage, 100, 100);
 //Values in pixels
 ```
@@ -134,7 +134,7 @@ resizeImage(myImage, 100, 100);
 #### Position an image
 >positionImage(image, type, top, left);
 
-````javascript
+```javascript
 positionImage(myImage, "absolute", "100px", "100px");
 ```
 
