@@ -53,8 +53,7 @@ function myCallback(file){
   //Logs all the properties of a file.
 
 
-  //We can log only one property of the file.
-  //Example:
+  //Example to log only one property:
   console.log(file.name);
   //Logs the selected file's name
 }
