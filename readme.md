@@ -42,7 +42,32 @@ downloadFile(myFile);
 ```
 
 #### Select file from memory
-Info Coming Soon!
+>selectFile(callback);
+
+##### myScript.js
+
+```javascript
+//Create a callback function
+function myCallback(file){
+  console.log(file);
+  //Logs all the properties of a file.
+
+  
+  //We can log only one property of the file.
+  //Example:
+  console.log(file.name);
+  //Logs the selected file's name
+}
+```
+
+##### myHtml.html
+
+```html
+<!--Import myScript.js-->
+<!--Create a button and do selectFile on click-->
+<button onclick="selectFile(myCallback);">
+```
+
 
 pluxin-colors.js
 ========
