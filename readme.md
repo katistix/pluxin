@@ -15,6 +15,10 @@ PluxIn is a collection of JavaScript files that makes your Web Development workf
 + pluxin-colors.js
 + pluxin-images.js
 
+#### Extra information
+
+You don't need to clone this repository, you can include in the "<head>" of your html page the "<script>" tag provided to every file. This way you will import that file directly from the internet so you don't need to store it locally.
+
 pluxin-files.js
 ========
 
