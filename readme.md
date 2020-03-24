@@ -52,7 +52,7 @@ function myCallback(file){
   console.log(file);
   //Logs all the properties of a file.
 
-  
+
   //We can log only one property of the file.
   //Example:
   console.log(file.name);
@@ -64,6 +64,7 @@ function myCallback(file){
 
 ```html
 <!--Import myScript.js-->
+<script type="text/javascript"src="myScript.js"></script>
 <!--Create a button and do selectFile on click-->
 <button onclick="selectFile(myCallback);">
 ```
