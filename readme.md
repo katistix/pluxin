@@ -1,5 +1,4 @@
 
-<img src="https://katistix.github.io/pluxin/logo.png" alt="logo" width="100" height="100">
 
 Getting Started
 =============
